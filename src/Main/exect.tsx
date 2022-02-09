@@ -4,7 +4,9 @@ import React from "react";
 // import Welcome from './4_componentes_propiedades/Funcional/Welcome';
 // import Welcome from './4_componentes_propiedades/Clase/Welcome';
 // import Comment from './4_componentes_propiedades/Extraccion_Componentes/Comment';
-import Clock from './5_estados_ciclo_vida/Clock';
+// import Clock from './5_estados_ciclo_vida/Clock';
+// import Form from './6_manejo_eventos/1_eventos_sinteticos/Form';
+import Toogle from './6_manejo_eventos/1_eventos_sinteticos/Toogle';
 
 // const info: object = {
 //     user: {
@@ -17,7 +19,7 @@ import Clock from './5_estados_ciclo_vida/Clock';
 function exect() {
     ReactDOM.render(
         <React.StrictMode>
-            <Clock/>
+            <Toogle/>
         </React.StrictMode>,
         document.getElementById('root')
     );
