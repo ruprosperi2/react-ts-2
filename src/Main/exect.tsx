@@ -6,7 +6,9 @@ import React from "react";
 // import Comment from './4_componentes_propiedades/Extraccion_Componentes/Comment';
 // import Clock from './5_estados_ciclo_vida/Clock';
 // import Form from './6_manejo_eventos/1_eventos_sinteticos/Form';
-import Toogle from './6_manejo_eventos/1_eventos_sinteticos/Toogle';
+// import Toogle from './6_manejo_eventos/1_eventos_sinteticos/Toogle';
+// import Greeting from './7_renderizado_condicional/1_ejemplo/Greeting';
+import LoginControl from './7_renderizado_condicional/2_ejemplo/LoginControl';
 
 // const info: object = {
 //     user: {
@@ -19,7 +21,7 @@ import Toogle from './6_manejo_eventos/1_eventos_sinteticos/Toogle';
 function exect() {
     ReactDOM.render(
         <React.StrictMode>
-            <Toogle/>
+            <LoginControl/>
         </React.StrictMode>,
         document.getElementById('root')
     );
